@@ -1,0 +1,20 @@
+.mainMenu {
+  width: 100vw;
+  height: 5vh;
+  line-height: 5vh;
+  display: flex;
+  justify-content: space-around;
+}
+.mainMenu .mainMenu_tools {
+  display: flex;
+  width: 67vw;
+  vertical-align: middle;
+  justify-content: space-around;
+}
+.mainMenu .mainMenu_search {
+  width: 33vw;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=mainMenuStyle.css.map */

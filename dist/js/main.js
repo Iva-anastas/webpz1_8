@@ -1,0 +1,1 @@
+let e=require("express"),s=e();s.use(e.static("src")),s.listen(3e3,()=>{console.log("Server has been started...")});

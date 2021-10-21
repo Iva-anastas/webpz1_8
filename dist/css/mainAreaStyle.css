@@ -1,0 +1,44 @@
+.mainArea {
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+.mainArea .mainArea_movies {
+  width: 60vw;
+  display: flex;
+}
+.mainArea .mainArea_movie1 {
+  margin: auto;
+}
+.mainArea .mainArea_movie2 {
+  margin: auto;
+}
+.mainArea .mainArea_movie3 {
+  margin: auto;
+}
+.mainArea .sideMenuArea {
+  display: flex;
+  width: 40vw;
+}
+.mainArea .sideMenuArea .sideMenu {
+  flex-direction: column;
+  margin: auto;
+  width: 80%;
+  height: 80%;
+}
+.mainArea .sideMenuArea .sideMenu .sideMenu_element {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: gray 1px solid;
+  flex-grow: 1;
+}
+.mainArea .sideMenuArea .sideMenu .sideMenu_header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: gray 1px solid;
+  flex-grow: 1;
+  background-color: gray;
+}

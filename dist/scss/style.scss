@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  background-color: black;
+  height: 5vh;
+}
+img {
+  margin: auto;
+}
+.mainArea {
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  .mainArea_movies {
+    width: 60vw;
+    display: flex;
+  }
+  .mainArea_movie1 {
+    margin: auto;
+  }
+  .mainArea_movie2 {
+    margin: auto;
+  }
+  .mainArea_movie3 {
+    margin: auto;
+  }
+  .sideMenuArea {
+    display: flex;
+    width: 40vw;
+    .sideMenu {
+      flex-direction: column;
+      margin: auto;
+      width: 80%;
+      height: 80%;
+      .sideMenu_element {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: gray 1px solid;
+        flex-grow: 1;
+      }
+      .sideMenu_header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: gray 1px solid;
+        flex-grow: 1;
+        background-color: gray;
+      }
+    }
+  }
+}
+.mainMenu {
+  width: 100vw;
+  height: 5vh;
+  line-height: 5vh;
+  display: flex;
+  justify-content: space-around;
+  .mainMenu_tools {
+    display: flex;
+    width: 67vw;
+    vertical-align: middle;
+    justify-content: space-around;
+  }
+  .mainMenu_search {
+    width: 33vw;
+    display: flex;
+    justify-content: space-around;
+  }
+}
+.movieCollections {
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: gray;
+  .movieCollections_element1 {
+    background-image: url("../img/dc-comics.jpg");
+    height: 240px;
+    width: 640px;
+    line-height: 270px;
+    margin: auto;
+  }
+  .movieCollections_element2 {
+    background-image: url("../img/marvel-comics.jpg");
+    height: 240px;
+    width: 640px;
+    line-height: 240px;
+    margin: auto;
+  }
+  p {
+    font-size: 24px;
+    color: white;
+    margin: auto;
+    text-align: center;
+  }
+}

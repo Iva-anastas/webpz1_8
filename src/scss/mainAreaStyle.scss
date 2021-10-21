@@ -1,0 +1,44 @@
+.mainArea {
+  height: 60vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  .mainArea_movies {
+    width: 60vw;
+    display: flex;
+  }
+  .mainArea_movie1 {
+    margin: auto;
+  }
+  .mainArea_movie2 {
+    margin: auto;
+  }
+  .mainArea_movie3 {
+    margin: auto;
+  }
+  .sideMenuArea {
+    display: flex;
+    width: 40vw;
+    .sideMenu {
+      flex-direction: column;
+      margin: auto;
+      width: 80%;
+      height: 80%;
+      .sideMenu_element {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: gray 1px solid;
+        flex-grow: 1;
+      }
+      .sideMenu_header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: gray 1px solid;
+        flex-grow: 1;
+        background-color: gray;
+      }
+    }
+  }
+}
